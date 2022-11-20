@@ -53,6 +53,18 @@ body{
     border-style: hidden;
     font: bold 100% Arial;
 }
+.botonlogin{
+    display: block;
+    width: 80%;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-left: 8px;
+    padding: 15px 30px;
+    background-color: #5cd7ed;
+    color: #000;
+    text-decoration: none;
+    font: bold 100% Arial;
+}
 #login p{
     font: 100% Arial;
     text-align: center;
