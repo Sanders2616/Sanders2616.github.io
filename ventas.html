@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <!--<link rel="stylesheet" href="css/estilo.css">-->
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" media="screen"/>
+</head>
+<body>
+  <div class="izquierda"><h1>Autolavado</h1>
+    <ul class="menu">
+        <li><a href="home.html"><span class="icon home"></span>Inicio</a></li>
+        <li><a href="clientes.html"><span class="icon clientes"></span>Clientes</a></li>
+        <li><a href="servicios.html"><span class="icon servicio"></span>Servicios</a></li>
+        <li><a href="trabajadores.html"><span class="icon trabajdores"></span>Trabajadores</a></li>
+        <li><a href="ventas.html"><span class="icon ventas"></span>Ventas</a></li>
+        <li><a href="index.html"><span class="icon salir"></span>Salir</a></li>
+    </ul>
+  </div>
+  <div class="derecha"><h1>Ventas</h1><br>
+    <div class="formVentas">
+        <form>
+            <select class="txtdatos" name="empleado" id="empleado" placeholder="Empleado">
+                <option>Sandra Aguilar</option>
+                <option>Mauricio Ramírez</option>
+                <option>Uriel Maldonado</option>
+            </select>
+            <select class="txtdatos" name="trabajador" id="" placeholder="Servicio">
+                <option>Lavado exterior</option>
+                <option>Lavado de alfombra</option>
+                <option>Cambio de Aceite</option>
+            </select>
+            <input type="text" class="txtdatos" name="vehiculo" id="vehiculo" placeholder="HTS-32-45">
+            <table class="datostabla_ventas">
+                <thead>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Costo</th>
+                        <th>Editar</th>
+                        
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Lavado de alfombra</td>
+                    <td>$250</td>
+                    <td>icono</td>
+                    
+            </table>
+            <div class="targ-venta">
+                  <h2>Vehiculo marca Nissan 4 Cilindros, Color Rojo</h2>
+                  <h3>Lavado de alfombra</h3>
+                  <h3>Lavado exterior</h3>
+                  <h3>Cambio de aceite</h3>
+                  <h2>TOTAL $370.00</h2>
+                  <h3>Servicio Realizado por: Arely Aguilar</h3>
+            </div><br><br><br><br><br>
+            
+            <h1>TOTAL $370.00</h1><br>
+            <input type="submit" class="salvar" value="Pagar">
+            <br><br><br>
+        </form>
+    </div>
+  </div>
+</body>
+</html>
