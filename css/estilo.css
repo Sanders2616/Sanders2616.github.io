@@ -1,0 +1,665 @@
+body{
+    background: #1a1b1c;
+}
+
+#login{
+    color: #ebe7b7;
+    background: linear-gradient(90deg, rgba(187,34,250,100)0%, rgba(297,92,184,100) 35%);
+    width: 370px;
+    min-height: 400px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+#login h1{
+    margin: 0 auto;
+    color:#ebe7b7;
+    text-align: center;
+    font-size: 30;
+    font: bold 200% Arial;
+}
+.caja{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: hidden;
+    font-size: 15px;
+    text-align: center;
+}
+.user{
+    background-image: url(../imagenes/user-solid-24.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.password{
+    background-image: url(../imagenes/key-regular-24.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.email{
+    background-image: url(../imagenes/envelope-solid-24.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.boton{
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    color: black;
+    background: #029b99;
+    border-style: hidden;
+    font: bold 100% Arial;
+
+
+}
+.botonlogin{
+    
+    width: 80%;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-left: 8px;
+    padding: 15px 30px;
+    background-color: #029b99;
+    color: #000;
+    text-decoration: none;
+    font: bold 100% Arial;
+}
+
+#login p{
+    font: 100% Arial;
+    text-align: center;
+}
+.izquierda{
+    min-height: 100vh;
+    color: #FFFFFF;
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+.derecha{
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    color: #000000;
+    float: left;
+    width: 85%;
+}
+.derecha h1{
+    
+    color: #939292;
+    padding-left: 120px;
+    font-style: bold;
+    font: 200% arial;
+}
+ul.menu{
+    background: none;
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+    
+}
+ul.menu li {
+    color: #FFFFFF;
+    font: 150% arial;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+ul.menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul.menu li a:hover {
+    background: #d33649;
+    padding-right: 85%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ul.menu li a:active {
+    background: #ecc039;
+    padding-right: 85%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.icon{
+    background-size: 28px;
+    padding-left: 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.home{
+    background-image:url(../pictures/home.png);
+    padding-left: 50px;
+}
+.clientes{
+    background-image:url(../pictures/users.svg);
+    padding-left: 50px;
+}
+.servicio{
+    background-image:url(../pictures/color-solid-36.png);
+    padding-left: 50px;
+}
+.trabajdores{
+    background-image:url(../pictures/id-card-regular-36.png);
+    padding-left: 50px;
+}
+.ventas{
+    background-image:url(../pictures/money-withdraw-regular-36.png);
+    padding-left: 50px;
+}
+.salir{
+    background-image:url(../pictures/log-out-solid-36.png);
+    padding-left: 50px;
+}
+
+.targ-cliente{
+    background: #fb718a;
+    float: left;
+    width: 400px;
+    height:200px ;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    border-radius: 25px;
+    text-align: right;
+}
+.targ-cliente img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.targ-cliente h1{
+    color: #ffffff;
+    font-style: bold;
+    font: 200% arial;
+    font-size: 45px;
+    padding-right: 50px;
+}
+.targ-cliente h2{
+    color: #ffffff;
+    padding-right: 30px;
+    font-style: bold;
+    font: 200% arial;
+}
+.targ-cliente img{
+    width: 80px;
+    float: left;
+}
+
+.targ-servicio{
+    background: #42988f;
+    float: left;
+    width: 400px;
+    height:200px ;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    text-align: right;
+}
+.targ-servicio img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.targ-servicio h1{
+    color: #ffffff;
+    font-style: bold;
+    font: 200% arial;
+    font-size: 45px;
+    padding-right: 70px;
+}
+.targ-servicio h2{
+    color: #ffffff;
+    padding-right: 30px;
+    font-style: bold;
+    font: 200% arial;
+}
+.targ-servicio img{
+    width: 80px;
+    float: left;
+}
+
+.targ-trabajador{
+    background: #40223c;
+    float: left;
+    width: 400px;
+    height:200px ;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    text-align: right;
+}
+.targ-trabajador img{
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.targ-trabajador h1{
+    color: #ffffff;
+    font-style: bold;
+    font: 200% arial;
+    font-size: 45px;
+    padding-right: 70px;
+}
+.targ-trabajador h2{
+    color: #ffffff;
+    padding-right: 30px;
+    font-style: bold;
+    font: 200% arial;
+}
+.targ-trabajador img{
+    width: 80px;
+    float: left;
+}
+.grafica{
+    margin-top: auto;
+    margin-left: 650px;
+}
+.grafica img{
+    height: 359px;
+    width: 540px;
+}
+
+.targ-ventas{
+    background: #fe6c2b;
+    float: left;
+    width: 400px;
+    height:200px ;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    text-align: right;
+}
+.targ-ventas img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.targ-ventas h1{
+    color: #ffffff;
+    font-style: bold;
+    font: 200% arial;
+    font-size: 45px;
+    padding-right: 40px;
+}
+.targ-ventas h2{
+    color: #ffffff;
+    padding-right: 30px;
+    font-style: bold;
+    font: 200% arial;
+}
+.targ-ventas img{
+    width: 80px;
+    float: left;
+}
+
+.formCliente{
+    margin-top: 30px;
+    background: #FFFFFF;
+    width: 75%;
+    min-height: 300px;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+    box-shadow: 3px 5px 9px rgb(92, 92, 92);
+}
+.formCliente2{
+    margin-top: 30px;
+    background: #FFFFFF;
+    width: 75%;
+    min-height: 300px;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+    box-shadow: 3px 5px 9px rgb(92, 92, 92);
+}
+.txtdatos{
+    min-width: 350px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin:18px 20px;
+    box-sizing: border-box;   
+}
+.txtdireccion{
+    min-width: 350px;
+    width: 745px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 18px 20px;
+    box-sizing: border-box;   
+}
+.txtemail{
+    min-width: 350px;
+    width: 1140px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 18px 20px;
+    box-sizing: border-box;   
+}
+.salvar{
+    border-radius: 10px;
+    width: 20%;
+    height: 40px;
+    font-size: 28px;
+    color: black;
+    background: #fb718a;
+    border-style: hidden;
+    font: bold 100% Arial;
+    float: right;
+    margin-right: 40px;
+}
+.salvar2{
+    border-radius: 10px;
+    width: 20%;
+    height: 40px;
+    font-size: 28px;
+    color: black;
+    background: #fb718a;
+    border-style: hidden;
+    font: bold 100% Arial;
+    float: right;
+    margin-right: 40px;
+}
+
+.datostabla{
+    margin: 25px 0;
+    font-size: 1.2em;
+    min-width: 100%;
+    border-style: gray 1px solid;
+}
+.datostabla thead tr{
+    margin-top: 15px;
+    background-color: #68baab;
+    color: #000000;
+    text-align: middle;
+    border:  gray 1px solid;
+}
+.datostabla thead td{
+    align-items: center;
+    text-align: center;
+    border: gray 1px solid;
+}
+.datostabla tr:nth-child(add){
+    background: rgb(215, 213, 213);
+}
+.datostabla tr:nth-child(even){
+    background: rgb(191, 190, 190);
+}
+.formtrabajador{
+    margin-top: 30px;
+    background: #FFFFFF;
+    width: 75%;
+    min-height: 300px;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+    box-shadow: 3px 5px 9px rgb(92, 92, 92);
+}
+.formservicios{
+    margin-top: 30px;
+    background: #FFFFFF;
+    width: 75%;
+    min-height: 150px;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+    box-shadow: 3px 5px 9px rgb(92, 92, 92);
+}
+.txtserv{
+    min-width: 550px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin:18px 20px;
+    box-sizing: border-box;   
+}
+
+/*Formulario Ventas*/
+.formVentas{
+    margin-top: 80px;
+    background: #FFFFFF;
+    width: 75%;
+    min-height: 600px;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+    box-shadow: 3px 5px 9px rgb(92, 92, 92);
+}
+
+.datostabla_ventas{
+    margin: 20px 25px;
+    font-size: 1.2em;
+    min-width: 62%;
+    border-style: gray 1px solid;
+}
+.datostabla_ventas thead tr{
+    background-color: #68baab;
+    color: #000000;
+    text-align: middle;
+    border:  gray 1px solid;
+}
+.datostabla_ventas thead td{
+    text-align: middle;
+    border: gray 1px solid;
+}
+
+.targ-venta{
+    background: #ffffff;
+    float: right;
+    width: 300px;
+    height:auto ;
+    border-radius: 20px;
+    text-align: center;
+    border-style: solid;
+    margin-right: 50px;
+    margin-bottom: 200px;
+}
+.targ-venta h2{
+    color: #000000;
+    font-style: bold;
+    font: 200% arial;
+    font-size: 20px;
+    text-align: center;
+}
+.targ-venta h3{
+    color: #000000;
+    padding-right: 30px;
+    font-style: bold;
+    font: 200% arial;
+    font-size: 16px;
+}
+
+@media (max-width: 800px){
+   /*HOME*/
+    .izquierda{
+        min-height: 100vh;
+        color: #FFFFFF;
+        float: left;
+        width: 10%;
+        text-align: center;
+    }
+    .izquierda h1{
+        color: #1a1b1c;
+    }
+    .derecha{
+        min-height: 100vh;
+        background-color: #eeeeee;
+        color: #000000;
+        float: left;
+        width: 90%;
+        align-items: center;
+    }
+    .derecha h1{
+        color: #939292;
+        padding-left: 10px;
+        font-style: bold;
+        font: 200% arial;
+    }
+    .targ-cliente{
+      
+        width: 80%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .targ-servicio{
+        
+        width: 80%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .targ-trabajador{
+       
+        width: 80%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .targ-trabajador h2{
+        padding-right:0px;
+    }
+    .targ-ventas{
+        
+        width: 80%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .grafica{
+        margin-top: auto;
+        margin-left: 20px;
+    }
+    .grafica img{
+        width: 300px;
+        height: 210px;
+    }
+    /*TERMINA HOME*/
+    /*CLIENTES*/
+    .formCliente{
+        margin-top: 20px;
+        background: #FFFFFF;
+        width: 90%;
+        height: 550px;
+        margin-left: 5px;
+        border-radius: 8px;
+        margin: 0 auto;
+        box-shadow: 3px 5px 9px rgb(92, 92, 92);
+    }.formCliente2{
+        margin-top: 20px;
+        background: #FFFFFF;
+        width: 95%;
+        min-height: auto;
+        margin-left: 5px;
+        border-radius: 0px;
+        margin: 0 auto;
+        box-shadow: 3px 5px 9px rgb(92, 92, 92);
+    }
+    /*TERMINA CLIENTES*/
+
+    .txtdatos{
+        min-width: auto;
+        width: 90%;
+        padding: 12px 20px;
+        border-radius: 5px;
+        margin:18px 20px;
+        box-sizing: border-box;   
+    }
+    .txtdireccion{
+        min-width: auto;
+        width: 90%;
+        padding: 12px 20px;
+        border-radius: 5px;
+        margin:18px 20px;
+        box-sizing: border-box;   
+    }
+    .txtemail{
+        min-width: auto;
+        width: 90%;
+        padding: 12px 20px;
+        border-radius: 5px;
+        margin:18px 20px;
+        box-sizing: border-box;     
+    }
+    .salvar{
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .datostabla{
+        margin: 10px 0;
+        font-size: 10px;
+        min-width: 100%;
+    }
+    /*INICA SERVICIOS*/
+    .formservicios{
+        margin-top: 20px;
+        background: #FFFFFF;
+        width: 90%;
+        height: auto;
+        margin-left: 5px;
+        border-radius: 8px;
+        margin: 0 auto;
+        box-shadow: 3px 5px 9px rgb(92, 92, 92);
+    }
+    .txtserv{
+        min-width: auto;
+        width: 90%;
+        padding: 12px 20px;
+        border-radius: 5px;
+        margin:18px 20px;
+        box-sizing: border-box;    
+    }
+    /*TERMINA SERVICIOS*/
+    /*INICIA TRABAJADORES*/
+    .formtrabajador{
+        margin-top: 20px;
+        background: #FFFFFF;
+        width: 90%;
+        height: auto;
+        margin-left: 5px;
+        border-radius: 8px;
+        margin: 0 auto;
+        box-shadow: 3px 5px 9px rgb(92, 92, 92);
+    }
+    /*TERMINA TRABAJADORES*/
+    /*VENTAS*/
+    .formVentas{
+        margin-top: 20px;
+        background: #FFFFFF;
+        width: 90%;
+        height: auto;
+        margin-left: 5px;
+        border-radius: 8px;
+        margin: 0 auto;
+        box-shadow: 3px 5px 9px rgb(92, 92, 92);
+    }
+    .datostabla_ventas{
+        margin:16px 18px;
+        font-size: 1em;
+        min-width: 90%;
+    }
+    .targ-venta{
+        float: center;
+        width: auto;
+        height:auto ;
+        border-radius: 20px;
+        text-align: center;
+        border-style: solid;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .salvar2{
+        width: auto;
+        height: 40px;
+        margin-right: 15px;
+    }
+    /*TERMINA VENTAS*/
+}
